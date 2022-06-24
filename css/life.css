@@ -1,0 +1,39 @@
+/* 清楚原始样式，内外边距 */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(239, 227, 227);
+    margin: 50px;
+    padding: 50px;
+    color: #071f4e96;
+    border-radius: 10px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.photo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    
+}
+
+.photo img{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+p {
+    line-height: 1.6em;
+}
